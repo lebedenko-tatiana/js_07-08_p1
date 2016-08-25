@@ -1,7 +1,7 @@
 ﻿$(function () {
 
   var $tabs = $('.tabs__navi');
-  console.log($tabs);
+
   $tabs.on('click', '.tabs__li:not(.active)', function() {
     $(this).addClass('active')
            .siblings().removeClass('active');

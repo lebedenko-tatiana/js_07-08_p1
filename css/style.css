@@ -66,6 +66,9 @@
 
 .tabs__content.active {
   display: block;
+  height: 150px;
+  overflow: overlay;
+
 }
 
 
